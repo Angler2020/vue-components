@@ -2,14 +2,14 @@ src/components/BarGraph.vue：
 
 <template>
   <!-- <ScaleBox> -->
-    <div class="echarts-box">
-      <div id="myEcharts"></div>
-    </div>
+  <div class="echarts-box">
+    <div id="myEcharts"></div>
+  </div>
   <!-- </ScaleBox> -->
 </template>
 
 <script setup>
-import * as echarts from "echarts";
+import echarts from "@/utils/chart";
 import { onMounted, onUnmounted } from "vue";
 import europeMap from "../../assets/linesMap/europe.json";
 // import region from "../../assets/map/region.json";
