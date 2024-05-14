@@ -1,5 +1,10 @@
 const routes = [
   {
+    path: "/base",
+    name: "常用",
+    component: () => import("../views/experience.vue"),
+  },
+  {
     path: "/ProvideeAndInject",
     name: "局部状态管理",
     component: () => import("../components/ProvideeAndInject/index.vue"),
