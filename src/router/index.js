@@ -1,20 +1,9 @@
 const routes = [
   {
     path: "/base",
-    name: "常用",
+    name: "vue基础常用",
     component: () => import("../views/experience.vue"),
   },
-  {
-    path: "/ProvideeAndInject",
-    name: "局部状态管理",
-    component: () => import("../components/ProvideeAndInject/index.vue"),
-  },
-  {
-    path: "/UsePinia",
-    name: "pinia状态管理",
-    component: () => import("../components/UsePinia/index.vue"),
-  },
-
   {
     path: "/Treeselect",
     name: "树形下拉选",
@@ -34,6 +23,11 @@ const routes = [
     path: "/MySelect",
     name: "懒加载下拉选",
     component: () => import("../components/mySelect/index.vue"),
+  },
+  {
+    path: "/TimePicker",
+    name: "时间选择",
+    component: () => import("../components/TimePicker/index.vue"),
   },
 ];
 
