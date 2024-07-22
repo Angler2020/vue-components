@@ -29,6 +29,11 @@ const routes = [
     name: "时间选择",
     component: () => import("../components/TimePicker/index.vue"),
   },
+  {
+    path: "/table",
+    name: "表格",
+    component: () => import("../views/table.vue"),
+  },
 ];
 
 export { routes };
